@@ -55,9 +55,9 @@ while True:
             break
 
     street_address = input("Enter the street address: ").title()
-    city = "St. John's" # input("Enter the city: ").title()
-    province = "NL" # input("Enter the province (ex: NL): ").upper()
-    postal_code = "A1E2V5" # input("Enter the postal code (ex: A1B0B4): ").upper()
+    city = input("Enter the city: ").title()
+    province = input("Enter the province (ex: NL): ").upper()
+    postal_code = input("Enter the postal code (ex: A1B0B4): ").upper()
 
     while True:
         plate_num = input("Enter the plate number (XXX999): ").upper()
